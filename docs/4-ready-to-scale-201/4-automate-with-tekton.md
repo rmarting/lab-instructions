@@ -173,7 +173,10 @@ Let's go and add some more useful tests to trigger the pipeline 🧪
 
     ![pipeline-started](images/pipeline-started.png)
 
-4. Whenever the pipeline is ran, it produces and saves the results in a MinIO bucket called `test-results`. Go there and see how well your tests performed: `https://minio-ui-<USER_NAME>-toolings.<CLUSTER_DOMAIN>/browser/test-results`
+4. Whenever the pipeline is ran, it produces and saves the results in a MinIO bucket called `test-results`. Go there and see how well your tests performed: 
+    ```bash
+    https://minio-ui-<USER_NAME>-toolings.<CLUSTER_DOMAIN>/browser/test-results
+    ```
 
 5. Alternatively, you can see the results in your Prompt Tracker application (it's in the `Quick Links` in the top right of your lab instructions if you have already closed it 😉). The results will be attached in the related git commit.
    
