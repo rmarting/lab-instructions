@@ -24,7 +24,7 @@ We'll separate out the LLM business logic from the frontend into its own backend
       enabled: true
       model: vllm-llama32/llama32
       prompt: |               
-        Summarize this text.  # 👈 update this line with your own prompt
+        <PROMPT> # 👈 update this line with your own prompt
     ```
 
     ![canopy-be-values.png](./images/canopy-be-values.png)

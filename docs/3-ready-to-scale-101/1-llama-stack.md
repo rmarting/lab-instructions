@@ -76,7 +76,11 @@ Let’s deploy the Playground to verify the integration between Llama Stack and 
 
     ![llama-stack-playground.png](./images/llama-stack-playground.png)
 
-3. If you scroll on the left menu, there is a `System Prompt` area. We can continue experimenting and iterating on our prompts here. So feel free to bring your latest System prompt to the playground.
+3. If you scroll on the left menu, there is a `System Prompt` area. We can continue experimenting and iterating on our prompts here. So feel free to bring your latest System prompt to the playground (or use the one saved on the page).
+
+    ```
+    <PROMPT>
+    ```
 
     Here is a user prompt from previous chapters:
     ```

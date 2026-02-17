@@ -20,8 +20,7 @@ But first, we need to set up our backend repository to handle the GenAI applicat
     temperature: 0.9
     max_tokens: 4096
     prompt: |
-      <Insert your prompt here>
-      <And make sure you have the correct indentation 😌>
+      <PROMPT>
   ```
 
 1. And let's push the changes to Git:
