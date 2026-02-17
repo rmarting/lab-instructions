@@ -99,6 +99,12 @@ Explain the given text using only emojis.
 ```
 
 Can you come up with something that explains the text even better without loosing important info?
+
+💡 If so, paste it into the Optional System Prompt Box on the top to keep hold of it for using across future lab exercise(s)
+```
+<PROMPT>
+```
+
 </details>
 
 <iframe
