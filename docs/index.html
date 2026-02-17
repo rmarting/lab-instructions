@@ -21,12 +21,7 @@
 <body>
   <!-- Added Top Navigation with Dropdown -->
   <div class="top-navigation">
-    <div class="dropdown">
-      <button class="dropbtn">Quick Links</button>
-      <div class="dropdown-content" id="dynamic-links">
-        <!-- Links will be populated dynamically with JavaScript -->
-      </div>
-    </div>
+
   </div>
 
   <div class="user-name-form">
@@ -59,6 +54,15 @@
       <div class="" style="margin-left: 30px;">
         <button class="storage-btns" onclick="setNamesInStorage()">Save</button>
         <button class="storage-btns" onclick="clearStorage()">Clear</button>
+
+        <div class="dropdown">
+          <!-- class="dropbtn" -->
+          <button class="storage-btns"  style="background-color: #cc0000; color: white; border: 2px #FAB6B6;">Quick Links</button>
+          <div class="dropdown-content" id="dynamic-links">
+            <!-- Links will be populated dynamically with JavaScript -->
+          </div>
+        </div>
+
       </div>
   </div>
 
@@ -221,7 +225,6 @@
             const userName = localStorage.getItem('USER_NAME') ? localStorage.getItem('USER_NAME') : '<USER_NAME>';
             const passWord = localStorage.getItem('PASSWORD') ? localStorage.getItem('PASSWORD') : '<PASSWORD>';
             const prompt = localStorage.getItem('PROMPT') ? localStorage.getItem('PROMPT') : '<PROMPT>';
-              debugger
             const clusterDomain = localStorage.getItem('CLUSTER_DOMAIN') ? localStorage.getItem('CLUSTER_DOMAIN') : '<CLUSTER_DOMAIN>';
             const gitServer = localStorage.getItem('GIT_SERVER') ? localStorage.getItem('GIT_SERVER') : '<GIT_SERVER>';
             return content.replaceAll('<USER_NAME>', userName)
