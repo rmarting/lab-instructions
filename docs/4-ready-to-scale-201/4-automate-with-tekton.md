@@ -134,7 +134,11 @@ We will be triggering it from a Tekton Pipeline, where we both will have a step 
 
     ![gitea-evals-webhook.png](./images/gitea-evals-webhook.png)
 
-8. Enter `http://el-canopy-evals-event-listener.<USER_NAME>-toolings.svc.cluster.local:8080` -> click `Add Webhook`
+8. Enter the URL Below for the Pipeline Event Listener and click `Add Webhook`
+
+    ```bash
+    http://el-canopy-evals-event-listener.<USER_NAME>-toolings.svc.cluster.local:8080
+    ```
 
     ![githook](images/githook.png)
 
