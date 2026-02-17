@@ -52,6 +52,8 @@ In order to interact with OpenShift via the command line ou will need to log int
       * Namespace: `<USER_NAME>-toolings`
    * Change the `Directory` dropdown to `Helm` and set
       * Values Files: `values.yaml`
+        
+        Note: The dropdown menu item may already be selected to `Helm`.   
 
     Your form should look like this:
     
