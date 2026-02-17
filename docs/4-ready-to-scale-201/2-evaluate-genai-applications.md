@@ -45,6 +45,8 @@ To be able to evaluate with Llama Stack we first need to enable it in our experi
 
     When you are done, come back here to continue with the instructions.
 
+> *In case the Llamastack Operator Pod is stuck in the ContainerCreating state, scale down the old deployment to release the PVC.*
+
 ## Speed tests with GuideLLM
 
 We will be using GuideLLM to test how responsive our backend is. 
