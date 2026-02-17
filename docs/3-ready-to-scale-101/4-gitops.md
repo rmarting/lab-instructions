@@ -15,7 +15,9 @@ Let's setup the foundation of our GitOps system and deploy all the components we
    
    * NOTE: If your own workstation already has the `oc` CLI installed locally, you could be using that. But, if you need an easily accessible way to run these commands in a foolproof way, we encourage you to go back to the VSCode Workbench you created earlier. (if you remember, you started a terminal to run a `git clone` in it). Thanks to the beauty of Web Browser and containers, that is a way to garanteee it will work, regardless of how your local workstation is configured. You're welcome!)
 
-  First log in to the cluster:
+## Log in to the cluster:
+
+In order to interact with OpenShift via the command line ou will need to log into the cluster. Using the terminal window in Visual Studio Code: 
 
   ```bash
     export CLUSTER_DOMAIN=<CLUSTER_DOMAIN>
@@ -50,6 +52,8 @@ Let's setup the foundation of our GitOps system and deploy all the components we
       * Namespace: `<USER_NAME>-toolings`
    * Change the `Directory` dropdown to `Helm` and set
       * Values Files: `values.yaml`
+        
+        Note: The dropdown menu item may already be selected to `Helm`.   
 
     Your form should look like this:
     
