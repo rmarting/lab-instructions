@@ -25,7 +25,7 @@ The Canopy application we deployed already has RAG built-in as you may have seen
         You are a helpful assistant specializing in document intelligence and academic content analysis.
     ```
 
-3. Push the change to git:https://rhoai-genaiops.github.io/lab-instructions/#/5-grounded-ai/5-rag-canopyUI
+3. Push the change to git:
 
     ```bash
     cd /opt/app-root/src/backend/chart
