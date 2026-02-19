@@ -11,18 +11,18 @@ The Canopy application we deployed already has RAG built-in as you may have seen
     ```yaml
     LLAMA_STACK_URL: "http://llama-stack-service:8321"
     summarize:
-     enabled: true
-     model: vllm-llama32/llama32
-     temperature: 0.9
-     max_tokens: 4096
-     prompt: |
-       You are a helpful assistant. Summarize the given text please.
+      enabled: true
+      model: vllm-llama32/llama32
+      temperature: 0.9
+      max_tokens: 4096
+      prompt: |
+        You are a helpful assistant. Summarize the given text please.
     information-search:         # 👈 add this block 📚❗︎
-     enabled: true
-     vector_db_id: latest
-     model: vllm-llama32/llama32
-     prompt: |
-       You are a helpful assistant specializing in document intelligence and academic content analysis.
+      enabled: true
+      vector_db_id: latest
+      model: vllm-llama32/llama32
+      prompt: |
+        You are a helpful assistant specializing in document intelligence and academic content analysis.
     ```
 
 3. Push the change to git:
