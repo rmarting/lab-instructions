@@ -42,6 +42,6 @@ Before we can use an MCP server, we need to deploy one, let's start with that!
 
     ![calender-app.png](./images/calender-app.png)
 
-5. Go to your workbench and open up the notebook **`experiments/8-agents/2-MCP.ipynb`** to see how to use the MCP server and its tools. When you are done, come back here for more!
+5. Go to your workbench and open up the notebook **`experiments/8-agents/2-mcp-servers.ipynb`** to see how to use the MCP server and its tools. When you are done, come back here for more!
 
 Now that you know what tools are, how they work, and how to use them, let's see how we can create even more powerful agents.
