@@ -87,7 +87,7 @@ Now we need to tell Llama Stack to use LiteMaaS instead of the direct endpoint.
 
   name: `Llama-3.2-3B-Instruct-FP8`
 
-  url: `https://litellm-<USER_NAME>-maas.<CLUSTER_DOMAIN>/v1`
+  url: `https://litemaas-litellm-<USER_NAME>-maas.<CLUSTER_DOMAIN>/v1`
 
   token: `your-token-sk-xxxx`  (copy it from LiteMaaS)
 
