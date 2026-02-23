@@ -11,6 +11,7 @@ The box at the top of the page allows you to load the docs with your team's vari
 1. **Username** — e.g. `user1`. This value will be prefixed to things such as the namespaces we use.
 2. **Password** — your lab password.
 3. **Cluster Domain** — the `apps.*` portion of your OpenShift domain (see below).
+4. **System Prompt** - we will update this box as we go along with the exercises, you can keep empty for now.
 
 The values are persisted in your browser's local storage. Click **Clear** to reset all saved values.
 
