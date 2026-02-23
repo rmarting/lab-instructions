@@ -55,7 +55,10 @@ In OpenShift, you have an experimentation environment which is called `<USER_NAM
 
 4. Hit `Create` , then expand `Canopy UI Helm Chart Values Schema` and fill out the values as below:
 
-    - **SYSTEM_PROMPT:** Do you remember the great prompt you came up with in the previous section? Let's paste that here!
+    - **SYSTEM_PROMPT:** Do you remember the great prompt you came up with in the previous section? Let's paste that here or use the one you pasted to the top of the instructions!
+```
+<PROMPT>
+```
     - **MODEL_NAME:** `llama32`
     - **LLM_ENDPOINT:** `https://llama32-ai501.<CLUSTER_DOMAIN>`
   
